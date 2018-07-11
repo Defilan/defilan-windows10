@@ -21,6 +21,6 @@ suites:
     run_list:
       - recipe[defilan-windows10::default]
     verifier:
-      inspec_tests:
+      inspec_test:
         - test/integration/default
     attributes:
