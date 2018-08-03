@@ -21,6 +21,7 @@ include_recipe 'chocolatey::default'
   habitat
   vagrant
   virtualbox 
+  docker-for-windows
 ).each do |package|
   chocolatey_package package
 end
