@@ -24,5 +24,8 @@ include_recipe 'chocolatey::default'
   docker-for-windows
   skypeforbusiness
 ).each do |package|
-  chocolatey_package package
+  chocolatey_package package do
+    action :install
+    returns [0, 3010]
+  end
 end
