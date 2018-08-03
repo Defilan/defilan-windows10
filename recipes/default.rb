@@ -19,5 +19,5 @@ include_recipe 'chocolatey::default'
   slack
   zoom
 ).each do |package|
-  chocolatey package
+  chocolatey_package package
 end
