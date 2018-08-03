@@ -18,6 +18,9 @@ include_recipe 'chocolatey::default'
   microsoft-teams
   slack
   zoom
+  habitat
+  vagrant
+  virtualbox 
 ).each do |package|
   chocolatey_package package
 end
