@@ -22,6 +22,7 @@ include_recipe 'chocolatey::default'
   vagrant
   virtualbox 
   docker-for-windows
+  skypeforbusiness
 ).each do |package|
   chocolatey_package package
 end
