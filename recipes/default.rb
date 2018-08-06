@@ -23,6 +23,9 @@ include_recipe 'chocolatey::default'
   virtualbox 
   docker-for-windows
   skypeforbusiness
+  classic-shell
+  autohotkey
+  7zip
 ).each do |package|
   chocolatey_package package do
     action :install
