@@ -26,6 +26,7 @@ include_recipe 'chocolatey::default'
   autohotkey
   resharper
   7zip
+  poshgit
 ).each do |package|
   chocolatey_package package do
     action :install

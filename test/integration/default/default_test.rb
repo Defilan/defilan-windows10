@@ -23,6 +23,7 @@
   ReSharper
   autohotkey
   7zip
+  poshgit
 ).each do |package|
   describe chocolatey_package(package) do
     it { should be_installed }
