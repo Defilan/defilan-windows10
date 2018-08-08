@@ -20,7 +20,7 @@
   virtualbox 
   docker-for-windows
   SkypeForBusiness
-  classic-shell
+  resharper
   autohotkey
   7zip
 ).each do |package|
